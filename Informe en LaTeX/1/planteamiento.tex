@@ -1,0 +1,123 @@
+\chapter{Planteamiento del Problema}
+\section{Descripción de la Realidad Problemática}
+En el distrito de Santiago de Surco, Lima, la congestión vehicular es un desafío crítico que impacta negativamente tanto en la calidad de vida de sus habitantes como en el desarrollo económico del área. Este problema se agrava por la ineficiencia en la gestión del tráfico, una situación que refleja una falta de adaptación tecnológica para responder a los crecientes retos urbanos. La congestión vehicular en Surco no solo prolonga los tiempos de viaje, sino que también incrementa los costos operativos y el consumo de combustible, lo que a su vez contribuye a la contaminación ambiental. Según un estudio, el tráfico en Lima es uno de los más caóticos de América Latina, con tiempos de viaje que frecuentemente superan el 60\% de lo estimado en condiciones normales, impactando gravemente la productividad y la economía de los hogares, según \cite{swarco2024}. En Surco, un distrito caracterizado por su heterogeneidad socioeconómica y su densa infraestructura urbana, estas condiciones son particularmente críticas debido a su creciente parque automotor, según \cite{sabogal2019}.
+
+Actualmente, los semáforos en las principales intersecciones de Surco operan con ciclos predefinidos, independientemente del flujo real de vehículos. Este sistema rígido genera largas esperas en horas pico y un uso ineficiente del tiempo durante períodos de baja circulación, según \cite{wagner2024}. Además, la ausencia de una infraestructura tecnológica avanzada limita la capacidad del distrito para implementar soluciones dinámicas que mejoren la sincronización de los semáforos y respondan a situaciones inesperadas, como accidentes o bloqueos, según \cite{sabogal2019}.
+
+El tiempo adicional que los vehículos permanecen detenidos aumenta las emisiones de gases contaminantes, lo que afecta la calidad del aire y la salud pública. La Organización Mundial de la Salud ha señalado que la contaminación del aire en ciudades como Lima contribuye significativamente a enfermedades respiratorias y cardiovasculares, un problema especialmente preocupante en zonas densamente urbanizadas como Surco, según \cite{swarco2024}. Socialmente, los embotellamientos generan estrés en los conductores y afectan la convivencia urbana, exacerbando los riesgos de accidentes viales, según \cite{wagner2024}.
+
+En este contexto, la implementación de un sistema de gestión inteligente de semáforos basado en aprendizaje por refuerzo ofrece una solución prometedora. Este enfoque permite que los semáforos ajusten dinámicamente los tiempos de luz verde y roja en función de las condiciones del tráfico en tiempo real, mejorando significativamente el flujo vehicular y reduciendo los tiempos de espera, según \cite{swarco2024}. Además, tecnologías como la inteligencia artificial y los sistemas de modelado de tráfico pueden facilitar la toma de decisiones más efectivas para gestionar recursos limitados, como el espacio vial y la capacidad de las intersecciones, según \cite{sabogal2019}.
+
+La congestión vehicular en Surco no es solo un problema de movilidad; también tiene profundas implicaciones económicas, ambientales y sociales. La implementación de un sistema de semáforos inteligentes contribuiría no solo a una mayor eficiencia en el tráfico, sino también a mejorar la calidad de vida de los habitantes del distrito. Este estudio busca ofrecer un modelo replicable para otras ciudades enfrentando problemas similares, contribuyendo a la sostenibilidad urbana y a un futuro más eficiente y equitativo, según \cite{wagner2024}.
+
+\section{Formulación del Problema}
+
+\subsection{Problema General}
+PG: \newcommand{\ProblemaGeneral}{
+¿Cómo puede un modelo de aprendizaje por refuerzo optimizar la sincronización de los semáforos en Santiago de Surco para mejorar el flujo vehicular y reducir los tiempos de espera en las intersecciones principales y auxiliares?
+}
+\ProblemaGeneral
+\subsection{Problemas Específicos}
+\newcommand{\Pbone}{
+¿Cómo afecta la falta de un modelo dinámico de aprendizaje por refuerzo a la optimización de los tiempos de los ciclos de luz verde y roja en las intersecciones principales?
+}
+\newcommand{\Pbtwo}{
+¿Qué tan eficaz puede ser el uso de un modelo de aprendizaje por refuerzo para reducir los tiempos de espera en las intersecciones principales de Santiago de Surco durante diferentes franjas horarias?
+}
+\newcommand{\Pbthree}{
+¿Cómo podría un modelo de aprendizaje por refuerzo sincronizar de manera eficiente los semáforos de las vías principales con sus auxiliares para mejorar el flujo vehicular?
+}
+\newcommand{\Pbfour}{
+¿Qué resultados pueden observarse al aplicar un modelo de aprendizaje por refuerzo en las intersecciones seleccionadas, en comparación con los sistemas de semáforos tradicionales?
+}
+
+\begin{itemize}
+	\item PE1: {\Pbone}
+	\item PE2: {\Pbtwo}
+	\item PE3: {\Pbthree}
+	\item PE4: {\Pbfour}
+\end{itemize}
+
+\section{Objetivos de la Investigación}
+
+\subsection{Objetivo General}
+OG: \newcommand{\ObjetivoGeneral}{
+Diseñar un modelo de aprendizaje por refuerzo para optimizar la sincronización de los semáforos en Santiago de Surco, con el fin de mejorar el flujo vehicular y reducir los tiempos de espera en las intersecciones principales y sus auxiliares.
+}
+\ObjetivoGeneral
+\subsection{Objetivos Específicos}
+\newcommand{\Objone}{
+Proponer un modelo basado en aprendizaje por refuerzo que permita ajustar dinámicamente los tiempos de luz verde y roja de los semáforos en función de las condiciones del tráfico vehicular.
+
+}
+\newcommand{\Objtwo}{
+Implementar simulaciones del modelo en escenarios representativos de las intersecciones seleccionadas de Santiago de Surco para evaluar su desempeño frente a los sistemas tradicionales.
+}
+\newcommand{\Objthree}{
+
+Analizar el impacto del modelo en la reducción de los tiempos de espera en las intersecciones principales y en el flujo vehicular en las vías auxiliares conectadas.
+}
+\newcommand{\Objfour}{
+
+Validar la efectividad del modelo comparando métricas de tráfico, como tiempo promedio de espera y volumen vehicular procesado, antes y después de su aplicación en simulaciones.
+}
+
+\begin{itemize}
+	\item OE1: {\Objone}
+	\item OE2: {\Objtwo}
+	\item OE3: {\Objthree}
+	\item OE4: {\Objfour}
+\end{itemize}
+
+
+\section{Hipótesis de la Investigación}
+\subsection{Hipótesis General}
+HG: \newcommand{\HipotesisGeneral}{
+La implementación de un modelo de aprendizaje por refuerzo para la sincronización de semáforos en Santiago de Surco permitirá mejorar el flujo vehicular y reducir significativamente los tiempos de espera en las intersecciones principales y sus auxiliares.
+}
+\HipotesisGeneral
+
+
+\subsection{Hipótesis Específicas}
+\newcommand{\Hone}{
+Un modelo basado en aprendizaje por refuerzo ajustará dinámicamente los tiempos de luz verde y roja, logrando una reducción significativa en los tiempos de espera en las intersecciones principales.
+
+}
+\newcommand{\Htwo}{
+La sincronización de los semáforos mediante un modelo de aprendizaje por refuerzo mejorará la fluidez vehicular entre las vías principales y sus auxiliares, reduciendo los cuellos de botella en el tráfico.
+}
+\newcommand{\Hthree}{
+La implementación del modelo permitirá procesar un mayor volumen vehicular por intersección en comparación con los sistemas tradicionales de semaforización.
+}
+\newcommand{\Hfour}{
+El uso de un modelo de aprendizaje por refuerzo demostrará, en simulaciones, una mejora notable en las métricas de tráfico, como la reducción de tiempos promedio de espera y el incremento de la eficiencia en la gestión del flujo vehicular.
+}
+
+\begin{itemize}
+	\item HE1: {\Hone}
+	\item HE2: {\Htwo}
+	\item HE3: {\Hthree}
+	\item HE4: {\Hfour}
+\end{itemize}
+
+\section{Justificación de la Investigación}
+
+\subsection{Teórica}
+La justificación teórica de esta investigación se fundamenta en el uso del aprendizaje por refuerzo, una técnica de inteligencia artificial que permite a un agente aprender a tomar decisiones optimizadas en un entorno dinámico. Aplicado a la gestión de semáforos, el aprendizaje por refuerzo puede modelar el sistema como un proceso de toma de decisiones secuenciales, donde cada semáforo actúa como un agente autónomo que mejora su desempeño a través de la experiencia. Esta teoría de control adaptativo permite implementar sistemas que se ajustan a las condiciones cambiantes del tráfico, promoviendo una mayor eficiencia en la gestión vehicular.
+
+\subsection{Práctica}
+La justificación práctica se basa en la necesidad urgente de optimizar la gestión del tráfico en Santiago de Surco, un distrito con intersecciones congestionadas debido a semáforos mal sincronizados. Al implementar un sistema inteligente basado en aprendizaje por refuerzo, los semáforos podrán adaptarse a las condiciones reales del tráfico, reduciendo los tiempos de espera y mejorando la fluidez vehicular. Esto no solo beneficiará a los conductores, sino también al transporte público y a los peatones, al disminuir los tiempos de viaje, el consumo de combustible y la emisión de gases contaminantes.
+
+\subsection{Metodológica}
+La justificación metodológica de esta investigación radica en la aplicación de técnicas de simulación y modelado para probar la eficacia del aprendizaje por refuerzo en la gestión de semáforos. Se utilizarán herramientas de simulación de tráfico para replicar las condiciones reales de las intersecciones de Santiago de Surco, permitiendo evaluar el rendimiento del sistema propuesto. Este enfoque experimental permitirá ajustar los parámetros del modelo en un entorno controlado antes de su implementación en el mundo real, garantizando una mayor precisión en los resultados y reduciendo los riesgos asociados a la puesta en marcha del sistema.
+\section{Delimitación del Estudio}
+
+\subsection{Espacial}
+El estudio se llevará a cabo en el municipio de Santiago de Surco, uno de los distritos más grandes y transitados de Lima, Perú. El área de enfoque principal será las intersecciones vehiculares más congestionadas, donde el tráfico es más caótico y la sincronización de los semáforos es crucial para mejorar la fluidez. El proyecto se centrará en áreas clave, como avenidas principales y cruces donde la congestión vehicular es frecuente. Estas zonas han sido seleccionadas debido a su alta densidad vehicular y la necesidad evidente de mejorar la gestión del tráfico.
+
+\subsection{Temporal}
+El proyecto tomará métricas del tráfico durante el año 2024. El proyecto incluirá desde la planificación y el diseño del sistema hasta la evaluación final de su efectividad mediante simulaciones de tráfico. El estudio incluye la recolección de datos actuales sobre el tráfico en las intersecciones seleccionadas, la creación del modelo de aprendizaje por refuerzo, y la prueba del sistema en un entorno simulado. El tiempo estimado, de 1 año, es suficiente para realizar ajustes en el modelo y evaluar su desempeño en diferentes escenarios, asegurando que el sistema funcione de manera óptima antes de su posible implementación.
+
+\subsection{Conceptual}
+El estudio se centrará en el diseño e implementación de un sistema de gestión inteligente de semáforos basado en el aprendizaje por refuerzo. Este sistema busca mejorar la sincronización y la gestión del tráfico vehicular en las intersecciones seleccionadas de Santiago de Surco. El aprendizaje por refuerzo se entiende como una técnica de inteligencia artificial que permite a los agentes, en este caso los semáforos, tomar decisiones óptimas a través de la interacción con su entorno. El sistema busca optimizar el flujo vehicular, reducir tiempos de espera y mejorar la eficiencia general del tránsito urbano.
+
